@@ -1,0 +1,7 @@
+D:\C#\Labaratornaya1\Labaratornaya1\bin\Debug\Labaratornaya1.exe.config
+D:\C#\Labaratornaya1\Labaratornaya1\bin\Debug\Labaratornaya1.exe
+D:\C#\Labaratornaya1\Labaratornaya1\bin\Debug\Labaratornaya1.pdb
+D:\C#\Labaratornaya1\Labaratornaya1\obj\Debug\Labaratornaya1.csprojAssemblyReference.cache
+D:\C#\Labaratornaya1\Labaratornaya1\obj\Debug\Labaratornaya1.csproj.CoreCompileInputs.cache
+D:\C#\Labaratornaya1\Labaratornaya1\obj\Debug\Labaratornaya1.exe
+D:\C#\Labaratornaya1\Labaratornaya1\obj\Debug\Labaratornaya1.pdb
