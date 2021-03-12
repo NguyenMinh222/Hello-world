@@ -1,0 +1,13 @@
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\bin\Debug\netcoreapp3.1\Laboratornaya2(3).exe
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\bin\Debug\netcoreapp3.1\Laboratornaya2(3).deps.json
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\bin\Debug\netcoreapp3.1\Laboratornaya2(3).runtimeconfig.json
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\bin\Debug\netcoreapp3.1\Laboratornaya2(3).runtimeconfig.dev.json
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\bin\Debug\netcoreapp3.1\Laboratornaya2(3).dll
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\bin\Debug\netcoreapp3.1\Laboratornaya2(3).pdb
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\obj\Debug\netcoreapp3.1\Laboratornaya2(3).csprojAssemblyReference.cache
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\obj\Debug\netcoreapp3.1\Laboratornaya2(3).AssemblyInfoInputs.cache
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\obj\Debug\netcoreapp3.1\Laboratornaya2(3).AssemblyInfo.cs
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\obj\Debug\netcoreapp3.1\Laboratornaya2(3).csproj.CoreCompileInputs.cache
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\obj\Debug\netcoreapp3.1\Laboratornaya2(3).dll
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\obj\Debug\netcoreapp3.1\Laboratornaya2(3).pdb
+D:\C#\Laboratornaya2(3)\Laboratornaya2(3)\obj\Debug\netcoreapp3.1\Laboratornaya2(3).genruntimeconfig.cache
