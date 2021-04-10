@@ -306,7 +306,6 @@ namespace LAB3
                 }
             } while (k);
             Nationality = nation1;
-
         }
         public void Reage()
         {
@@ -503,7 +502,7 @@ namespace LAB3
                 Console.WriteLine("Write your Name: ");
                 Name = Student.Imya();
                 Console.WriteLine("Write your Surname: ");
-               /* Surname = Student.Imya();
+                Surname = Student.Imya();
                 Console.WriteLine("Write your Nationality: ");
                 Nationality = Student.nation();
                 Console.WriteLine("Write your Age: ");
@@ -517,7 +516,7 @@ namespace LAB3
                 Console.WriteLine("Write your Course: ");
                 Course = Student.course();
                 Console.WriteLine("Write your Speciality: ");
-                Speciality = Student.university();*/
+                Speciality = Student.university();
             }
     }
     class Program
