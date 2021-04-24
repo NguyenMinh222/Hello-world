@@ -1,8 +1,0 @@
-D:\C#\LAB4(2)\LAB4(2)\bin\Debug\LAB4(2).exe.config
-D:\C#\LAB4(2)\LAB4(2)\bin\Debug\LAB4(2).exe
-D:\C#\LAB4(2)\LAB4(2)\bin\Debug\LAB4(2).pdb
-D:\C#\LAB4(2)\LAB4(2)\obj\Debug\LAB4(2).csprojAssemblyReference.cache
-D:\C#\LAB4(2)\LAB4(2)\obj\Debug\LAB4(2).csproj.CoreCompileInputs.cache
-D:\C#\LAB4(2)\LAB4(2)\obj\Debug\LAB4(2).exe
-D:\C#\LAB4(2)\LAB4(2)\obj\Debug\LAB4(2).pdb
-D:\C#\LAB4(2)\LAB4(2)\obj\Debug\LAB4(2).csproj.CopyComplete
