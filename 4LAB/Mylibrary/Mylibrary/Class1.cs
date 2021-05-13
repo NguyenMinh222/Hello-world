@@ -12,7 +12,7 @@ namespace Key
     {
         [DllImport("User32.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int GetAsyncKeyState(Int32 i);
-        public static void Main()
+        unsafe public static void Main()
         {
                 while (true)
                 {
