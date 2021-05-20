@@ -330,6 +330,10 @@ namespace LAB3
         {
             Console.WriteLine("");
         }
+        public virtual void stu(string country)
+        {
+            Console.WriteLine("");
+        }
     }
     
     class Program
@@ -455,6 +459,7 @@ namespace LAB3
             foreach(var st in stude)
             {
                     st.stu();
+                    
                 
                 }
                 

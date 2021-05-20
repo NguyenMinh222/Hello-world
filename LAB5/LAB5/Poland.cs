@@ -201,6 +201,15 @@ namespace poland
             Console.WriteLine();
             Speciality = university;
         }
+        public enum Hobby
+        {
+            Football_player,
+            Basket_player,
+            Chess_player,
+            Dancer,
+            Fighter,
+            Artist
+        }
         public Poland()
         {
 
@@ -215,16 +224,31 @@ namespace poland
         {
             Console.Clear();
             Console.WriteLine("Information about student.\nName: " + Name + "\nSurname: " + Surname + "\nNationality: " + Nationality + "\nAge: " + Age + "\nWeight: " + Weight + "\nHeight: " +
-              Height + "\nUniversity: " + University + "\nCourse: " + Course + "\nSpecialty: " + Speciality + "\nStudy in Poland\n");
+              Height + "\nUniversity: " + University + "\nCourse: " + Course + "\nSpecialty: " + Speciality + "\nStudy in Poland\n"+Poland.Hobby.Basket_player+"\n");
         }
         public override void stu()
         {
 
-            Console.WriteLine("He study in Poland");
+            Console.WriteLine("He study in ");
+            base.stu();
+        }
+        public override void stu(string country)
+        {
+            Console.WriteLine("He study in " + country);
             base.stu();
         }
     }
-        
 
-    
+    class Program
+    {
+        private static void boi()
+        {
+            Poland poland1 = new Poland();
+            poland1.stu();
+            poland1.stu("Poland");
+
+
+        }
+    }
+
 }

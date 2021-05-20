@@ -201,6 +201,15 @@ namespace belarus
             Console.WriteLine();
             Speciality = university;
         }
+        public enum Hobby
+        {
+            Football_player,
+            Basket_player,
+            Chess_player,
+            Dancer,
+            Fighter,
+            Artist
+        }
         public Belarus()
         {
             Console.WriteLine("Write your university: ");
@@ -214,13 +223,30 @@ namespace belarus
         {
             Console.Clear();
             Console.WriteLine("Information about student.\nName: " + Name + "\nSurname: " + Surname + "\nNationality: " + Nationality + "\nAge: " + Age + "\nWeight: " + Weight + "\nHeight: " +
-              Height + "\nUniversity: " + University + "\nCourse: " + Course + "\nSpecialty: " + Speciality + "\nStudy in Belarus.\n");
+              Height + "\nUniversity: " + University + "\nCourse: " + Course + "\nSpecialty: " + Speciality + "\nHe study in Belarus.\n"+Belarus.Hobby.Fighter+"\n");
+           
         }
         public override void stu()
         {
-            Console.WriteLine("He study in Belarus");
+            Console.WriteLine("He study in ");
             base.stu();
         }
-
+         public override void stu(string country)
+        {
+            Console.WriteLine("He study in "+country);
+            base.stu();
+        }
+         
     }
+    class Program
+    {
+        private static void boi()
+            { 
+            Belarus belarus1 = new Belarus();
+             belarus1.stu();
+            belarus1.stu("Belarus");
+
+            
+            }
+    }    
 }

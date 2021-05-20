@@ -202,6 +202,15 @@ namespace another
             Console.WriteLine();
             Speciality = university;
         }
+        public enum Hobby
+        {
+            Football_player,
+            Basket_player,
+            Chess_player,
+            Dancer,
+            Fighter,
+            Artist
+        }
         public Another()
         {
 
@@ -219,15 +228,30 @@ namespace another
         {
             Console.Clear();
             Console.WriteLine("Information about student.\nName: " + Name + "\nSurname: " + Surname + "\nNationality: " + Nationality + "\nAge: " + Age + "\nWeight: " + Weight + "\nHeight: " +
-              Height + "\nUniversity: " + University + "\nCourse: " + Course + "\nSpecialty: " + Speciality + "\nStudy in "+country+"\n");
+              Height + "\nUniversity: " + University + "\nCourse: " + Course + "\nSpecialty: " + Speciality + "\nStudy in "+country+"\n"+Another.Hobby.Artist+"\n");
         }
         public override void stu()
         {
-            Console.WriteLine("He study in another country");
+            Console.WriteLine("He study in ");
+            base.stu();
+        }
+        public override void stu(string country)
+        {
+            Console.WriteLine("He study in " + country);
             base.stu();
         }
 
     }
-       
-    
+    class Program
+    {
+        private static void boi()
+        {
+            Another another1 = new Another();
+            another1.stu();
+            another1.stu("Poland");
+
+
+        }
+    }
+
 }
