@@ -12,7 +12,7 @@ using System.Runtime.Serialization;
 
 namespace LAB3
 {
-    class Student: //IComparable<Student>
+    class Student: IComparable<Student>
     {
         public string Name { get; set; }
         public string Surname { get; set; }
