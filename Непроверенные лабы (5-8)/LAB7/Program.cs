@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace LAB8
+namespace LAB7
 {
     class RatNumber
     {
